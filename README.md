@@ -12,6 +12,9 @@
 In this notbook we take another look into deep learning, this time into double decent and rademacher complexity.In Exerice 1 we comapre rademacher complexity between diffrent activation functions.In the second exerice to goal is to create double decent and to invetigate what effects it.
 
 #### About The Classifiers
+The structure of the base network is:
+<img src="https://i.imgur.com/KuQgUik.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=50% height=50% />
+
 As in the comparssion we compare between the activation function and the number of layer the optimizer function and the loss function are the same between them in order to isolate the effect of the compared attribute. The comparison is made between activation functions:
 * ```Relu```: 
 ![formula](https://render.githubusercontent.com/render/math?math=\color{black}\large{Relu(x)=max(0,x)})	
@@ -42,7 +45,6 @@ I will use google as an example but similar procces can be prefomred on other no
 	!git clone https://github.com/elaysason/Deep-Learning-Comparining-Overfitting
 .git
 	```	
-<img src="https://i.imgur.com/GpMGS2t.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=50% height=50% />
 
 3. Now the folder is in your files on colab. simpily download the nootbook as showed
 <img src="https://i.imgur.com/yl4jdKr.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width=30% height=30% />
